@@ -1,0 +1,12 @@
+Feb 26 08:30:01 server1 sshd[1234]: Failed password for invalid user admin from 14.161.47.252 port 54321 ssh2
+Feb 26 08:30:05 server1 sshd[1235]: Failed password for invalid user admin from 14.161.47.252 port 54322 ssh2
+Feb 26 08:30:10 server1 sshd[1236]: Failed password for root from 14.161.47.252 port 54323 ssh2
+Feb 26 08:32:11 server1 nginx: 192.168.1.100 - - [26/Feb/2026:08:32:11 +0530] "GET / HTTP/1.1" 200 612
+Feb 26 08:35:01 server1 sshd[5678]: Accepted publickey for root from 10.0.0.5 port 22 ssh2
+Feb 26 08:40:22 server1 kernel: [ 1042.827361] iptables denied: IN=eth0 OUT= MAC=... SRC=185.220.101.45 DST=192.168.1.50 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=54321 PROTO=TCP SPT=443 DPT=22 WINDOW=1024 RES=0x00 SYN URGP=0
+Feb 26 08:45:15 server1 nginx: 45.33.32.156 - - [26/Feb/2026:08:45:15 +0530] "GET /index.php?id=1' OR '1'='1' -- HTTP/1.1" 403 150
+Feb 26 08:47:30 server1 sshd[9012]: pam_unix(sshd:auth): check pass; user unknown
+Feb 26 08:47:30 server1 sshd[9012]: Failed password for invalid user support from 103.21.244.10 port 49152 ssh2
+Feb 26 08:50:00 server1 systemd[1]: Started Session 123 of user root.
+Feb 26 08:52:12 server1 nginx: 192.168.1.102 - - [26/Feb/2026:08:52:12 +0530] "GET /etc/passwd HTTP/1.1" 404 169
+Feb 26 08:55:40 server1 kernel: [ 2045.123456] TCP: possible SYN flood on port 80. Sending cookies.
